@@ -58,19 +58,7 @@ The system is designed with **enterprise execution reliability** in mind rather 
 - Fetch API
 
 ---
-action-items-fullstack/
-├── backend/
-│   ├── models/ActionItem.js          # Data model
-│   ├── services/
-│   │   ├── database.js               # In-memory DB
-│   │   ├── emailService.js           # Email sending
-│   │   ├── calendarService.js        # Calendar events
-│   │   ├── reminderService.js        # Scheduler
-│   │   └── actionExecutor.js         # Execution engine
-│   ├── server.js                     # Express API
-│   └── package.json
-├── frontend/
-│   └── index.html                    # Complete React app
+<img width="667" height="374" alt="image" src="https://github.com/user-attachments/assets/d6952284-49b8-4511-9887-6046c96fda06" />
 
 # 1. Install dependencies
 cd backend && npm install
