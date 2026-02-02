@@ -60,13 +60,13 @@ The system is designed with **enterprise execution reliability** in mind rather 
 ---
 <img width="667" height="374" alt="image" src="https://github.com/user-attachments/assets/d6952284-49b8-4511-9887-6046c96fda06" />
 
-# 1. Install dependencies
+## 1. Install dependencies
 cd backend && npm install
 
-# 2. Start backend
+## 2. Start backend
 npm start
 
-# 3. Open frontend (new terminal)
+## 3. Open frontend (new terminal)
 cd ../frontend && open index.html
-# npx serve
+ npx serve
 
