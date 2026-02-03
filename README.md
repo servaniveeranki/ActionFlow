@@ -58,24 +58,25 @@ The system is designed with **enterprise execution reliability** in mind rather 
 - Fetch API
 
 ---
+```text
 action-items-fullstack/
 │
 ├── backend/
 │   ├── models/
-│   │   └── ActionItem.js          # Data model (Action Items schema)
+│   │   └── ActionItem.js        # Data model (Action Items schema)
 │   │
 │   ├── services/
-│   │   ├── db.js            # In-memory database logic
-│   │   ├── email.js        # Email notifications
-│   │   ├── calendar.js     # Calendar event handling
-│   │   ├── reminder.js     # Reminder scheduler
-│   │   └── actionExecutor.js      # Core execution engine
+│   │   ├── db.js               # In-memory database logic
+│   │   ├── email.js            # Email notifications
+│   │   ├── calendar.js         # Calendar event handling
+│   │   ├── reminder.js         # Reminder scheduler
+│   │   └── actionExecutor.js   # Core execution engine
 │   │
-│   ├── server.js                  # Express API server
-│   └── package.json               # Backend dependencies
+│   ├── server.js               # Express API server
+│   └── package.json            # Backend dependencies
 │
 ├── frontend/
-│   └── index.html                 # React frontend application
+│   └── index.html              # React frontend application
 │
 └── README.md
 
@@ -84,7 +85,7 @@ cd backend && npm install
 
 ## 2. Start backend
 npm start
-
+```
 ## 3. Open frontend (new terminal)
 cd ../frontend && open index.html
  npx serve
