@@ -85,8 +85,8 @@ cd backend && npm install
 
 ## 2. Start backend
 npm start
-```
+
 ## 3. Open frontend (new terminal)
 cd ../frontend && open index.html
  npx serve
-
+```
